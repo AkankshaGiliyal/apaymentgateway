@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.red-btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+::placeholder{
+    color: #B3B3B3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header start */
+
+header{
+    height: 100vh;
+    background-image: url(images/activity1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+header p{
+    color: #fff;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+header a, .donate-today a{
+    margin-top: 50px;
+}
+
+/* header end */
+
+/* donate today section start */
+
+.donate-today{
+    height: 100vh;
+}
+
+.donate-today h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.donate-today p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.donation-amount{
+    display: flex;
+    margin: 20px 0;
+}
+
+.donation-amount h3{
+    background-color: #FAFAFA;
+    color: #707070;
+    padding: 40px 20px;
+    margin: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+#red-amount{
+    color: #FF5959;
+    border: 4px solid #FF5959;
+    background-color: #fff0f0;
+}
+
+.donate-today input{
+    border: none;
+    border-bottom: 1px solid #B3B3B3;
+    text-align: center;
+    font-size: 30px;
+    color: #B3B3B3;
+    width: 60%;
+    margin-top: 20px;
+}
+
+/* donate today section end */
+
+/* donate plan section start */
+
+.donate-plan{
+    height: 100vh;
+}
+
+.donate-plan h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.donate-plan p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.donate-plans{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.donate-card{
+    margin: 0 20px;
+    padding: 100px 40px;
+    border-radius: 10px;
+}
+
+.donate-card img{
+    margin-bottom: 20px;
+}
+
+.donate-card h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.donate-card p{
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.donate-card img{
+    scale: 1.2;
+}
+
+#green-card{
+    background-color: #eaf6f5;
+}
+
+#red-card{
+    background-color: #ffeded;
+}
+
+#yellow-card{
+    background-color: #FFF4D6;
+}
+
+/* donate plan section end */
+
+/* activities section start */
+
+.activities{
+    height: 100vh;
+}
+
+.activities h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.activities p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img{
+    margin: 20px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+/* activities section end */
+
+/* updates section start */
+
+.updates{
+    height: 100vh;
+}
+
+.updates h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.updates p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.updates form{
+    background-color: #ffe6d2;
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.updates input{
+    border: none;
+    background-color: #FAFAFA;
+    height: 48px;
+    width: 400px;
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.updates a{
+    padding: 15px 25px;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* updates section end */
+
+/* footer start */
+
+footer{
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+footer h4{
+    font-size: 30px;
+    color: #FF5959;
+    margin: 20px;
+}
+
+/* footer end */
