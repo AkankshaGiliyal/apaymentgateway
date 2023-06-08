@@ -1,1 +1,0 @@
-mongopass='mongodb+srv://admin:akanksha@cluster0.gmvohdr.mongodb.net/'
